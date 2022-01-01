@@ -1,0 +1,143 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    margin: 0;
+  padding: 0;
+}
+.box{
+    background-color: hsl(216, 50%, 16%);
+    margin: 6rem auto 0 auto;
+    height: 23rem;
+    width: 13rem;
+    padding: 1rem;
+    border-radius: 3%;
+    position: relative;
+    text-align: left;
+    /* box-shadow:  #888888; */
+}
+.ho1{
+    position: relative;
+    
+}
+.eqlbm{
+    height: 13rem;
+    width: 13rem;
+    border-radius: 2%;
+    background: url("/images/icon-view.svg")  ;
+    background-size: 100%;
+    
+}
+
+.eqlbm:hover{
+    background: url("/images/icon-view.svg") no-repeat;
+    background-position: center;
+    background-color: hsl(178, 100%, 50%);
+    
+}
+.ico1{
+    position: relative;
+    bottom: 100%;
+    background-size: 100%;
+    margin-top: -2%;
+    height: 13rem;
+    width: 13rem;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0;
+    border-radius: 2%;
+}
+.icon{
+    position: relative;
+    top: 40%;
+    left: 40%;
+    
+}
+.ico1:hover{
+    opacity: 0.5;
+}
+/* .hovering{
+   
+    display: no;
+        height: 13rem;
+        width: 13rem;
+        border-radius: 2%;
+    
+} */
+h5{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: Outfit;
+    color: white;
+}
+h5:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.name:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.eqlbm:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+p{
+    /* font-size: 18px; */
+    font-family: outfit;
+    /* margin-top: 5%; */
+}
+.line1{
+    font-size: 75%;
+    margin-bottom: -5%;
+    color: hsl(215, 51%, 70%);
+}
+.line2{
+    display: flex;
+    /* margin-top: -15%; */
+    font-size: 60%;
+    margin-top: 7%;
+    margin-bottom: -4%;
+    gap: 43%;
+}
+.ETH{
+    color: hsl(178, 100%, 50%);
+    text-align: right;
+    
+}
+.days{
+    color: hsl(215, 51%, 70%);
+    text-align: right;
+}
+hr{
+   /* color:hsl(215, 51%, 70%); */
+   border: 0.001px solid hsl(215, 32%, 27%);
+   
+
+}
+.credit{
+    display: flex;
+  align-items: center;
+}
+.profile{
+    border-radius: 100%;
+    border: solid 1px;
+    border-color: white;
+    width: 10%;
+    height: 10%;
+  
+    float: left;
+    margin-right: 10px;
+    
+}
+.credit p{
+    margin-top: 10px;
+    font-size: 60%;
+   
+    color: hsl(215, 51%, 70%);
+}
+
+.name{
+    color: white;
+}
+.icons{
+    float: left;
+    height: 70%;
+}
