@@ -61,13 +61,20 @@ body{
         border-radius: 2%;
     
 } */
-h5{
+h1{
     margin-top: 5%;
     margin-bottom: 5%;
     font-family: Outfit;
     color: white;
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
-h5:hover{
+h1:hover{
     color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
